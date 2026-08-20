@@ -52,6 +52,18 @@ data['bat_plus'] = 100 * data['pred_lin'] / league_mean
 - **Year-to-year autocorrelation (r) **: ~0.822 
 - **Year-to-year autocorrelation (R²) **: ~0.676 (indicating strong skill stability)
 
+| Bat Plus Range | Count | Average wOBA |
+| :--- | :--- | :--- |
+| 80-84 | 4 | 0.233 |
+| 85-89 | 23 | 0.266 |
+| 90-94 | 176 | 0.288 |
+| 95-99 | 518 | 0.297 |
+| 100-104 | 407 | 0.313 |
+| 105-109 | 164 | 0.331 |
+| 110-114 | 80 | 0.336 |
+| 115-119 | 15 | 0.381 |
+| 120-124 | 1 | 0.388 |
+
 ## Key Files
 
 - **`batplus_notebook.ipynb`**: Complete end-to-end analysis
