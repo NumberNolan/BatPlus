@@ -45,10 +45,12 @@ data['bat_plus'] = 100 * data['pred_lin'] / league_mean
 
 ## Model Performance
 
-- **In-sample R²**: 0.1892 (predicting wOBA)
+- **In-sample r**: 0.4344 (predicting wOBA)
+- **In-sample R²**: 0.1892
+- **Cross-validation r (5-fold)**: 0.4222
 - **Cross-validation R² (5-fold)**: 0.1798 ± 0.0370
 - **Year-to-year autocorrelation (r) **: ~0.822 
-- - **Year-to-year autocorrelation (R²) **: ~0.676 (indicating strong skill stability)
+- **Year-to-year autocorrelation (R²) **: ~0.676 (indicating strong skill stability)
 
 ## Key Files
 
